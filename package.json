@@ -1,0 +1,50 @@
+{
+  "name": "dsh-verify",
+  "version": "0.2.0",
+  "description": "External, dependency-free completeness verifier for DeepSeek Harness plugins and agent-preset modes. Runs outside the DSH process and never mutates it.",
+  "type": "module",
+  "bin": {
+    "dsh-verify": "bin/dsh-verify.mjs",
+    "dsh-verify-launcher": "bin/dsh-verify-launcher.mjs"
+  },
+  "main": "src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./launcher": "./src/launcher.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "probes/",
+    "docs/",
+    "CHANGELOG.md",
+    "run.cmd",
+    "run.ps1"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node bin/dsh-verify-launcher.mjs menu",
+    "quick": "node bin/dsh-verify-launcher.mjs quick",
+    "doctor": "node bin/dsh-verify-launcher.mjs doctor",
+    "menu": "node bin/dsh-verify-launcher.mjs menu",
+    "self-test": "node bin/dsh-verify-launcher.mjs self-test",
+    "test": "node tests/sanity.mjs && node tests/verify.test.mjs",
+    "test:yaml": "node tests/yaml-diff.mjs",
+    "verify": "node bin/dsh-verify.mjs",
+    "verify:full": "node bin/dsh-verify.mjs --probe --format markdown --output report.md"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "verifier",
+    "integrity",
+    "cordis"
+  ],
+  "license": "MIT",
+  "author": "FlyDragon39",
+  "dependencies": {}
+}
