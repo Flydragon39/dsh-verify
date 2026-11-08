@@ -1,7 +1,12 @@
-# dsh-verify
 # 简体中文
 
 [English](#dsh-verify) · **[简体中文](#简体中文)**
+
+[![Node](https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=white)](#quick-start)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](#how-it-works)
+[![Tests](https://img.shields.io/badge/tests-44%20passing-brightgreen)](#testing)
+[![DSH](https://img.shields.io/badge/DSH-0.2.0--rc.2-4B32C3)](#compatibility-author-and-licence)
 
 面向 **DeepSeek Harness（DSH）** 插件与 agent preset 模式的**外部只读完整性校验器**。它只回答一个问题：
 
@@ -152,14 +157,9 @@ node tests/yaml-diff.mjs       # 自研 YAML 读取器 vs js-yaml，本机全部
   难免有不足，欢迎提出 issue、指正与建议。
 - **许可**：MIT，完全开源；不限制商用与修改，可自由使用，唯一要求是标注原作者与项目名称。详见 [LICENSE](LICENSE)。
 
+# dsh-verify
 
 **[English](#dsh-verify)** · [简体中文](#简体中文)
-
-[![Node](https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=white)](#quick-start)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](#how-it-works)
-[![Tests](https://img.shields.io/badge/tests-44%20passing-brightgreen)](#testing)
-[![DSH](https://img.shields.io/badge/DSH-0.2.0--rc.2-4B32C3)](#compatibility-author-and-licence)
 
 An external, read-only completeness verifier for **DeepSeek Harness (DSH)** plugins and agent-preset modes.
 It answers one question:
