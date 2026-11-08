@@ -1,7 +1,7 @@
 MIT License
 
 Copyright (c) 2026 Deepseek
-Copyright (c) 2026 FlyDragon39
+Copyright (c) 2026 Flydragon39
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,40 +20,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-## Notice
-
-- **Author / 作者**: FlyDragon39
-- **Project / 项目**: dsh-verify — an external completeness verifier for
-  DeepSeek Harness plugins and agent-preset modes.
-
-### Upstream 上游
-
-This project is built against **DSH (official edition) `0.2.0-rc.2`**. That is
-the version all behaviour, file formats and compatibility claims were tested
-against. Compatibility with later DSH versions has **not** been tested and is
-not guaranteed; a DSH update may change composition layers, preset discovery or
-artifact shapes, and this tool must be re-validated against it.
-
-本项目以上游 **DSH（官方版）`0.2.0-rc.2`** 为基准构建，全部行为、文件格式与兼容性结论都
-基于该版本实测。**后续版本的兼容性尚未测试**，也不作保证；DSH 升级可能改变配置层、
-preset 发现方式或产出物形态，届时需要重新校验本工具。
-
-### How this was made 项目说明
-
-This is a personal project completed with AI assistance, and it is the author's
-first attempt at building and submitting code. Shortcomings are likely — issues,
-corrections and suggestions are very welcome.
-
-本项目是作者在 AI 协助下完成的个人项目，也是作者首次尝试代码构建与提交，难免有不足
-之处，欢迎提出 issue、指正与建议。
-
-### Open source 开源声明
-
-This project is **fully open source**: commercial use and modification are not
-restricted, and it may be used freely. The only requirement is that the
-original author and this project are credited.
-
-本项目**完全开源**：不限制商用与修改，可自由使用；唯一要求是标注原作者与项目名称。
